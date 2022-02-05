@@ -4,9 +4,15 @@ header {
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
 }
 
-header svg {
-  display: block;
-  width: 100%; height: 100%;
+.header__left {
+  flex: 0.4;
+}
+
+.header__right {
+  display: flex;
+  flex: 0.6;
+  justify-content: space-evenly;
 }
