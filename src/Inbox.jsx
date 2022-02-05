@@ -1,12 +1,12 @@
 import React from "react";
 import ActivityDetail from "./ActivityDetail.jsx";
 
-function ActivityFeed() {
+function Inbox() {
   return (
     <div>
-      <p>This is activity feed</p>
+      <p>This is inbox feed</p>
     </div>
   );
 }
 
-export default ActivityFeed;
+export default Inbox;

@@ -23,14 +23,6 @@
   padding: 20px;
 }
 
-.activityDetail {
-  background-color: pink;
-  display: flex;
-  padding: 5px;
-  margin: 10px;
-  border-radius: 5px;
-}
-
 .activity__left {
   flex: 0.2;
 }

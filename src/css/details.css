@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.flex-row-vcenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-col-vsb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-row-hsb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cell {
+  padding: 8px 0px 9px 10px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(181, 181, 181, 1);
+  height: 50px;
+  margin: 15px;
+}
+
+.icon {
+  width: 19px;
+  height: 19px;
+  border-radius: 9.5px;
+  margin-right: 20px;
+}
+
+.details {
+  box-sizing: border-box;
+  height: 27px;
+  flex-grow: 1;
+  margin-right: 111px;
+}
+
+.group-391 {
+  width: 108px;
+}
+
+.number {
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+}
+
+.count {
+  width: 14px;
+  height: 14px;
+}
+
+.msg {
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(206, 203, 205, 1);
+  word-wrap: break-word;
+}
+
+.moreVertIcon {
+  color: #f0eff0;
+  margin-right: 7px;
+}
+
+.time {
+  font-size: 8px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+  margin-right: 3px;
+}
+
+.group-222 {
+  padding: 2px 3px 2px 4px;
+  box-sizing: border-box;
+  border-radius: 2px 0px 0px 2px;
+  border: 1px solid rgba(181, 181, 181, 1);
+  width: 22px;
+  height: 15px;
+}
+
+.time-period {
+  font-size: 8px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+}
+
+.details__right {
+  display: flex;
+  align-items: center;
+  flex: 0.2;
+}

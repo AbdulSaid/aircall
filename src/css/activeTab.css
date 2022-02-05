@@ -1,0 +1,14 @@
+.active__tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.active__tab__text {
+  font-weight: 800;
+}
+
+.active__tab__line {
+  height: 5px;
+  background-color: orange;
+}
